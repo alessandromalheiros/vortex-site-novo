@@ -5,6 +5,7 @@
   "installCommand": "",
   "outputDirectory": "public",
   "cleanUrls": false,
+  "git": { "deploymentEnabled": false },
   "public": false,
   "headers": [
     {
@@ -17,3 +18,4 @@
   ],
   "functions": { "api/contact.mjs": { "maxDuration": 15 } }
 }
+
