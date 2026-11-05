@@ -1,0 +1,7 @@
+{
+  "name": "vortex-site-novo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": "24.x" }
+}

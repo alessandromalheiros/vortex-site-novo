@@ -1,0 +1,65 @@
+/* Retoma a escala, o peso e a composição da home aprovada. */
+:root{--muted-accessible:#5d7180}
+@media(max-width:600px){.internal-hero h1{ text-wrap:balance }.internal-hero h1 br{display:none}}
+.internal-hero{background:linear-gradient(112deg,#fff 44%,#f0f5f8 100%);padding:28px 0 62px}
+.internal-hero .crumb{margin-bottom:38px;font-size:11px;color:#697b88}
+.inner-grid{grid-template-columns:1.16fr .9fr;gap:78px;align-items:center}
+.internal-hero h1{font-size:54px;font-weight:600;line-height:1.13;letter-spacing:-2.1px;max-width:650px}
+.internal-hero h1 em{color:var(--blue);font-style:normal;font-weight:600}
+.internal-hero .intro{font-size:15px;line-height:1.8;color:#5d7180;max-width:500px;margin:24px 0 28px}
+.badge{font-weight:600;letter-spacing:.3px;font-size:10px;background:#eaf1f6;border-radius:24px;padding:6px 12px;margin-bottom:22px}
+.hero-aside{position:relative;background:#fff;padding:32px;border-radius:16px;border:1px solid #dce4e9;box-shadow:0 18px 55px #163e5b08}
+.hero-aside:before{content:'';position:absolute;top:-1px;left:32px;width:52px;height:3px;background:var(--orange)}
+.hero-aside .choice-label{font-size:9px;letter-spacing:1.7px;font-weight:600;margin:0 0 12px;color:#687d8c}
+.hero-aside h2{font-size:25px;font-weight:600;letter-spacing:-.9px;line-height:1.2;margin-bottom:24px}
+.profile-option{display:flex;gap:14px;align-items:center;border:1px solid #dce4e9;border-radius:9px;padding:18px 15px;margin-top:12px;transition:background .15s,border-color .15s}
+.profile-option:hover{background:#f3f7fa;border-color:var(--blue)}
+.profile-option:first-of-type{background:#f6f9fb}
+.profile-icon{font-size:21px;line-height:1;color:var(--blue);width:25px;flex-shrink:0}
+.profile-option strong{display:block;font-size:14px;font-weight:600;letter-spacing:0}
+.profile-option small{display:block;font-size:11px;color:#647681;line-height:1.6;margin-top:4px}
+.profile-arrow{margin-left:auto;color:var(--blue);font-size:20px}
+.profile-note{font-size:11px;line-height:1.8;color:#647681;margin:20px 0 0}
+.hero-aside ol{list-style:none;padding:0;counter-reset:step;margin:12px 0 0}
+.hero-aside li{display:flex;gap:15px;border-top:1px solid #e6ecf0;padding:18px 0;font-size:13px;line-height:1.8}
+.hero-aside li:before{counter-increment:step;content:'0' counter(step);font-size:10px;color:#7791a4;margin-top:4px}
+.local-nav{background:white}.local-nav .wrap{padding-top:18px;padding-bottom:18px;gap:32px}.local-nav a{font-size:11px;color:#5d7180}.local-nav a:hover{color:var(--blue);text-decoration:underline}
+.content-section{padding:84px 0}.content-section h2{font-weight:500;font-size:38px;letter-spacing:-1.3px;line-height:1.2;max-width:690px}.content-section .lead{font-size:15px;line-height:1.85;max-width:640px;margin-top:23px;margin-bottom:38px}.editorial-grid{gap:66px;max-width:1050px}.editorial-grid h3{font-size:21px;font-weight:600;line-height:1.3;letter-spacing:-.5px;scroll-margin-top:130px}.editorial-grid p{font-size:14px;line-height:1.9}.fact-note{padding:19px 24px;border-radius:0 8px 8px 0;font-size:12px;line-height:1.9;max-width:1050px;margin-top:35px}.compare-table{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:white}.compare-table th{font-weight:600}.compare-table th,.compare-table td{font-size:13px;padding:20px 24px}.compare-table tbody th{background:#f8fafb}.content-section .faq-grid{gap:80px}.faq-grid>p{margin-top:0}.content-section details{padding:22px 0}.content-section summary{font-size:14px;line-height:1.6;font-weight:500}.closing h2{font-weight:500;letter-spacing:-1px}.source-note{font-size:11px}
+@media(min-width:851px) and (max-height:740px){.internal-hero{padding-top:24px;padding-bottom:42px}.internal-hero .crumb{margin-bottom:28px}.internal-hero h1{font-size:48px;letter-spacing:-1.7px}.internal-hero .intro{margin:20px 0 24px}.hero-aside{padding:26px}.profile-option{padding:15px 13px}.badge{margin-bottom:18px}}
+@media(max-width:1100px) and (min-width:851px){.inner-grid{gap:40px}.internal-hero h1{font-size:47px}.hero-aside{padding:25px}.profile-option small{font-size:10px}}
+@media(max-width:850px){.inner-grid{grid-template-columns:1fr;gap:36px}.internal-hero{padding-bottom:40px}.internal-hero h1{font-size:48px;max-width:650px}.hero-aside{max-width:560px}.internal-hero .intro{max-width:560px}.content-section{padding:64px 0}.content-section h2{font-size:33px}.editorial-grid{gap:35px}.local-nav .wrap{gap:22px}}
+@media(max-width:600px){.internal-hero{padding:22px 0 36px}.internal-hero .crumb{margin-bottom:28px}.badge{margin-bottom:20px;font-size:10px}.internal-hero h1{font-size:38px;font-weight:600;letter-spacing:-1.4px;line-height:1.16}.internal-hero .intro{font-size:14px;line-height:1.8;margin:22px 0 24px}.inner-grid{gap:30px}.hero-aside{padding:24px}.hero-aside h2{font-size:23px;margin-bottom:20px}.hero-aside .choice-label{font-size:8px}.profile-option{padding:16px 13px;gap:12px}.profile-option strong{font-size:13px}.profile-option small{font-size:10px}.profile-note{font-size:11px}.content-section{padding:48px 0}.content-section h2{font-size:30px}.content-section .lead{font-size:14px;line-height:1.85}.editorial-grid{gap:26px}.editorial-grid p{font-size:14px}.content-section .faq-grid{gap:20px}.table-wrap{border-radius:10px}.compare-table th,.compare-table td{font-size:12px;padding:15px 12px;line-height:1.7}.local-nav .wrap{gap:12px 20px;padding-top:16px;padding-bottom:16px}}
+
+.content-checklist{padding-left:21px;font-size:14px;line-height:1.9}.content-checklist li{padding-left:2px;margin-bottom:5px}
+.age-detail{max-width:1050px;margin-top:22px;border-top:1px solid var(--line)}.age-detail>p{max-width:760px;font-size:14px;line-height:1.9}
+.age-bands{display:flex;flex-wrap:wrap;gap:9px;list-style:none;padding:0;margin:24px 0}.age-bands li{padding:8px 13px;background:#edf3f7;border-radius:6px;font-size:13px;color:var(--blue)}
+/* Ritmo das seções: separar o título de colunas, divisórias e perguntas. */
+.content-section{--section-content-gap:32px}
+.content-section>.wrap>h2+:is(.editorial-grid,.faq-grid,.steps){margin-top:var(--section-content-gap)}
+.content-section .faq-grid>.lead{margin:0}
+@media(max-width:600px){.content-section{--section-content-gap:24px}.content-section .faq-grid{row-gap:24px}}
+/* Links de continuação usam o mesmo respiro dos subtítulos. */
+.content-section{--text-link-gap:12px}
+.content-section .editorial-grid h3+p{margin-top:var(--text-link-gap)}
+.content-section .content-link{display:block;width:fit-content;max-width:100%;margin-top:var(--text-link-gap);font-size:14px;line-height:1.7;color:var(--ink);text-decoration:none;text-underline-offset:3px}
+.content-section .content-link:visited{color:var(--ink)}
+.content-section .content-link:hover,.content-section .content-link:focus-visible{text-decoration:underline}
+.content-section p:has(+.content-link),.content-section p:has(+.related){margin-bottom:0}
+.content-section .related{margin-top:var(--text-link-gap)}
+.content-section .related .content-link{margin-top:0}
+/* Topo simplificado aprovado: somente Planos e Operadoras abrem grupos. */
+.global-links summary{list-style:none;cursor:pointer}.global-links summary::-webkit-details-marker{display:none}.global-links summary::marker{content:""}.global-links summary:after{display:none;content:none}.global-links summary:hover,.global-links details[open]>summary,.global-links>a:hover{color:var(--blue);text-decoration:underline;text-underline-offset:6px}.global-links>a{display:flex;align-items:center;min-height:44px;font-weight:600}
+/* Contraste pontual e foco: preserva as cores dos botões e a composição aprovada. */
+.option small,.profile-option small,.internal-hero .crumb{color:var(--muted-accessible)}
+a:focus-visible,button:focus-visible,summary:focus-visible,.global-links a:focus-visible{outline:3px solid var(--blue);outline-offset:5px}
+/* Cabeçalho móvel leve: contato dentro do menu e controle por ícone com alvo de 44px. */
+.global-links>.mobile-contact{display:none}
+.menu svg{width:24px;height:24px;display:block}
+.menu .menu-icon-close{display:none}
+.menu[aria-expanded=true] .menu-icon-open{display:none}
+.menu[aria-expanded=true] .menu-icon-close{display:block}
+@media(max-width:850px){
+  .nav>.btn{display:none}
+  .nav .menu{display:grid;place-items:center;width:44px;height:44px;min-height:44px;padding:10px;border:0;background:transparent;color:var(--blue);flex-shrink:0}
+  .global-links>.mobile-contact{display:flex}
+}
